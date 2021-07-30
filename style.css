@@ -1,0 +1,166 @@
+body {
+    background: url("poster4.jpg") no-repeat center center/cover;
+}
+
+body img {
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.head {
+    text-align: center;
+    color: rgb(4, 225, 4);
+    /* background-color: black; */
+    font-family: 'Patua One', cursive;
+}
+.head::selection{
+    color: green;
+    background-color: black;
+}
+.intro::selection{
+    color: #ff00e0;
+    background-color: black;
+}
+.process::selection{
+    color: #ff00e0;
+    background-color: aqua;
+}
+
+.container {
+    color: yellow;
+    /* background-color: black; */
+    /* background: url(clock.jpg) no-repeat center center/cover; */
+    /* border: 2px solid black; */
+    margin: 80px;
+    padding: 10px;
+    font-size: 19px;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+
+}
+
+.container h3::selection {
+    color: green;
+    background-color: yellow;
+}
+
+.container p::selection {
+    color: purple;
+    background-color: aqua;
+}
+
+.container strong {
+    color: red;
+}
+
+.container a::selection {
+    color: black;
+    background-color: yellow;
+}
+
+#java {
+    color: black;
+}
+
+#java::selection {
+    color: green;
+    background-color: yellow;
+}
+
+#time::selection {
+    color: purple;
+    background-color: aqua;
+}
+
+.container p {
+    font-size: 34px;
+    /* display: block; */
+    color: #ff00e0;
+    /* background-color: black; */
+
+}
+
+.container a {
+    text-decoration: none;
+    color: red;
+}
+
+#time {
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    font-size: 34px;
+
+}
+
+.media {
+    font-size: 33px;
+}
+
+.follow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 500px; */
+    flex-direction: column;
+    background-color: pink;
+
+}
+
+.follow h1 {
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+    background-color: #edffda;
+    color: black;
+    border: 2px inset black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 59px;
+    margin: 44px;
+    font-size: 31px;
+}
+
+.foot {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mail {
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+.mail:hover {
+    color: red;
+}
+
+.middle {
+    text-align: center;
+}
+
+.web {
+    text-decoration: none;
+    color: black;
+}
+
+.web:hover {
+    color: red;
+    /* background-color: aqua; */
+}
+
+.foot p {
+    font-family: 'Oswald', sans-serif;
+}
+
+.intro span::first-letter {
+    color: red;
+}
+.process{
+    color: red;
+}

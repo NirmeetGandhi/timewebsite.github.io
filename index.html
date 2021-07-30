@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?  family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/92eda58cee.js" crossorigin="anonymous"></script>
+    <title>NirmeetGandhi|Real Time And Date Showing Webste</title>
+</head>
+
+<body>
+    <h2 class="head">HELLO EVERYONE MY NAME IS <strong><span class="intro"> NIRMEET GANDHI</span></strong> .THANK YOU
+        FOR VISITING THIS WEBSITE I WILL UPDATE THIS WEBSITE SOON.
+        <span class="process">(THE WEBSITE IS UNDER CONSTRUCTION)</span>
+        <P>:) :) :) :) :) :) :) :) :)</P>
+    </h2>
+    <div class="container">
+        <h3 class="header">This Real Time Clock Is Made By <strong><a href="https://github.com/CodeWithNirmeet"
+                    target="_blank"> NIRMEET GANDHI </a></strong>In <a id="java" href="https://javascript.info/"
+                target="_blank">Modern
+                Java
+                Script(ES6)</a></h3>
+        <p>TIME IS</p><span id="time"></span>
+    </div>
+    <div class="follow font1">
+        <h1>Follow Me On</h1>
+        <div class="media">
+            <a href="https://www.youtube.com/channel/UCrBmMF1sbf0EJ3IlE5eMDjA" target="_blank-"><i
+                    class="fa fa-youtube-play" style="color:red"></i></a>
+            <a href="https://www.linkedin.com/in/nirmeet-gandhi-738609215/" target="_blank"><i
+                    class="fa fa-linkedin-square" style="color:blue"></i></a>
+            <a href="https://github.com/CodeWithNirmeet" target="_blank"><i class="fa fa-github"
+                    style="color:black"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100070832375556" target="_blank"><i
+                    class="fa fa-facebook-square" style="color:blue"></i></a>
+            <a href="https://www.instagram.com/nirmeet_gandhi/" target="_blank"><i class="fa fa-instagram"
+                    style="color:#d88190"></i></a>
+
+        </div>
+    </div>
+    <footer class="foot">
+        <p>© at <a class="web" href="http://nirmeetgandhi.website">nirmeetgandhi.website<a>
+        </p>
+        <p class="query">If You Have Any Query Then Feel Free To Mail me on</p>
+        <p class="middle">nirmeetgamer0101@gmail.com</p>
+        <p class="middle">All rights Reserved-2020/21</p>
+    </footer>
+
+    <script>
+
+        function displayTime() {
+
+            time = new Date();
+            console.log(time);
+            document.getElementById('time').innerHTML = time;
+        }
+        setInterval(displayTime, 1000)
+
+    </script>
+
+</body>
+
+</html>
